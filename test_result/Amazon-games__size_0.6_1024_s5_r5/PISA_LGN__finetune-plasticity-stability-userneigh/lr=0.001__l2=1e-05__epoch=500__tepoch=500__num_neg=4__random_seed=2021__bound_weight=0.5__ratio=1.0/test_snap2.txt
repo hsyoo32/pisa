@@ -1,0 +1,6 @@
+Recall@10	0.021
+NDCG@10	0.0132
+Recall@20	0.0303
+NDCG@20	0.0161
+Recall@50	0.05
+NDCG@50	0.021

@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File with Arguments",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": ["--dataset", "Movielenz" ,"--model_name" ,"LightGCN" ,"--dyn_method", "finetune", "--tepoch", "5","--epoch","2",
+                     "--num_neg", "4", "--num_neg_fair", "4", "--lr", "0.001", "--l2" ,"1e-04", "--DRM", "none",
+                     "--DRM_weight" ,"1.0", "--tau", "3.0", "--train_ratio", "0.6", "--batch_size", "4096",
+                     "--random_seed", "2021", "--gpu", "0", "--path","/cpoc_data/test/graphsail update/data"],
+            "python":"/home/cpoc/anaconda3/bin/python",    
+            "justMyCode": false
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+INFO:root:Amazon-games__size_0.6_1024_s5_r5__LGN__pretrain
+INFO:root:--------------------------------------------- BEGIN: 2025-05-24 21:35:05 ---------------------------------------------
+INFO:root:cuda available: True
+INFO:root:cuda device: 3
+INFO:root:Load corpus from ../data/Amazon-games/pisa/size_0.6_1024_s5_r5/Reader.pkl
+INFO:root:Total instances: 74093
+INFO:root:Train instances: 44455
+INFO:root:Test instances: 29638
+INFO:root:Snap boundaries: [44455, 50382, 56309, 62236, 68163, 74093]
+INFO:root:#params: 1287040
+INFO:root:Amazon-games__size_0.6_1024_s5_r5__LGN__pretrain
+INFO:root:--------------------------------------------- BEGIN: 2025-05-24 21:36:21 ---------------------------------------------
+INFO:root:cuda available: True
+INFO:root:cuda device: 3
+INFO:root:Load corpus from ../data/Amazon-games/pisa/size_0.6_1024_s5_r5/Reader.pkl
+INFO:root:Total instances: 74093
+INFO:root:Train instances: 44455
+INFO:root:Test instances: 29638
+INFO:root:Snap boundaries: [44455, 50382, 56309, 62236, 68163, 74093]
+INFO:root:#params: 1287040
+INFO:root:Training time stage: 0
+INFO:root:Time_idx 0 model already exists. Skip training and test directly.
+INFO:root:Trained model testing
+INFO:root:[Valid]: Recall: 0.0221-0.0315-0.0506-0.0841 NDCG: 0.0149-0.018-0.0226-0.0293 MRR: 0.0192-0.0208-0.0218-0.0225 Precision: 0.0056-0.0043-0.0026-0.0021
+INFO:root:[Test]: Recall: 0.019-0.0278-0.0437-0.0693 NDCG: 0.0113-0.014-0.0178-0.0228 MRR: 0.0128-0.014-0.0148-0.0155 Precision: 0.0046-0.0035-0.0022-0.0017
+INFO:root:#params: 1287040
+INFO:root:Training time stage: 1
+INFO:root:Time_idx 1 model already exists. Skip training and test directly.
+INFO:root:Trained model testing
+INFO:root:[Valid]: Recall: 0.0123-0.0194-0.0358-0.0527 NDCG: 0.0072-0.0094-0.0135-0.017 MRR: 0.0085-0.0094-0.0104-0.0109 Precision: 0.0028-0.0022-0.0017-0.0013
+INFO:root:[Test]: Recall: 0.0104-0.017-0.0338-0.0542 NDCG: 0.0059-0.0079-0.012-0.0163 MRR: 0.0074-0.0084-0.0094-0.0099 Precision: 0.0033-0.0028-0.002-0.0016
+INFO:root:#params: 1287040
+INFO:root:Training time stage: 2
+INFO:root:Time_idx 2 model already exists. Skip training and test directly.
+INFO:root:Trained model testing
+INFO:root:[Valid]: Recall: 0.0118-0.0178-0.033-0.0529 NDCG: 0.0075-0.0095-0.0131-0.0171 MRR: 0.0103-0.011-0.0119-0.0124 Precision: 0.0034-0.0026-0.0018-0.0014
+INFO:root:[Test]: Recall: 0.0087-0.0158-0.0252-0.0404 NDCG: 0.0055-0.0075-0.0099-0.0132 MRR: 0.0075-0.0083-0.0088-0.0093 Precision: 0.003-0.0023-0.0015-0.0012
+INFO:root:#params: 1287040
+INFO:root:Training time stage: 3
+INFO:root:Time_idx 3 model already exists. Skip training and test directly.
+INFO:root:Trained model testing
+INFO:root:[Valid]: Recall: 0.0046-0.0094-0.0146-0.0244 NDCG: 0.003-0.0046-0.0058-0.0078 MRR: 0.0046-0.0053-0.0055-0.0058 Precision: 0.0014-0.0013-0.0008-0.0006
+INFO:root:[Test]: Recall: 0.0038-0.0097-0.0159-0.0231 NDCG: 0.0019-0.0036-0.0051-0.0067 MRR: 0.0017-0.0025-0.0028-0.0031 Precision: 0.0011-0.0011-0.0007-0.0006
+INFO:root:#params: 1287040
+INFO:root:Training time stage: 4
+INFO:root:Time_idx 4 model already exists. Skip training and test directly.
+INFO:root:Trained model testing
+INFO:root:[Valid]: Recall: 0.0066-0.0097-0.0149-0.0275 NDCG: 0.0042-0.0053-0.0067-0.0093 MRR: 0.0053-0.006-0.0064-0.0067 Precision: 0.0016-0.0015-0.001-0.0008
+INFO:root:[Test]: Recall: 0.0032-0.0068-0.0155-0.0247 NDCG: 0.0024-0.0034-0.0056-0.0074 MRR: 0.0042-0.0048-0.0054-0.0056 Precision: 0.0015-0.0012-0.001-0.0007
+INFO:root:
+--------------------------------------------- END: 2025-05-24 21:37:06 ---------------------------------------------
