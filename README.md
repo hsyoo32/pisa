@@ -1,8 +1,6 @@
 # PISA
-**Balancing Stability and Plasticity in Continual Recommender Systems**  
-SIGIR ’25
 
-This repository implements PISA as proposed in the paper “Embracing Plasticity: Balancing Stability and Plasticity in Continual Recommender Systems” (SIGIR’25): [link](https://openreview.net/pdf?id=VAQ61u5I9q)
+This repository implements **PISA** (PlastIcity and StAbility balancing continual recommender systems) as proposed in the paper **“Embracing Plasticity: Balancing Stability and Plasticity in Continual Recommender Systems” (SIGIR’25)**: [link](https://openreview.net/pdf?id=VAQ61u5I9q)
 
 ---
 
