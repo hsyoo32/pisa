@@ -17,7 +17,7 @@ ___
 1. **Pre-train** a vanilla LGN on pre-training data
 
    ```bash
-   python -u main.py \
+   python -u src/main.py \
      --model_name LGN \
      --dyn_method pretrain \
      --dataset Amazon-games \
@@ -37,7 +37,7 @@ ___
 2. **Run PISA** on the pre-trained model
 
    ```bash
-   python -u main.py \
+   python -u src/main.py \
      --model_name PISA_LGN \
      --dyn_method finetune-plasticity-stability-userneigh \
      --dataset Amazon-games \
