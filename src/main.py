@@ -8,9 +8,9 @@ import logging
 import argparse
 import torch
 
-from helpers import Reader, Runner, Runner_PISA
+from helpers import Reader, Runner, Runner_PISA, Runner_cons
 from models import  Model
-from models.general import LGN, PISA_LGN
+from models.general import LGN, PISA_LGN, Contrastive_LGN
 from models import Dataloader
 from utils import utils
 import pandas as pd

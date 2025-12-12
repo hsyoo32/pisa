@@ -4,6 +4,8 @@ import itertools
 # --- Data & Models ---
 datasets    = ['Amazon-games','Amazon-cds']  # Options: 'Amazon-cds', 'Amazon-games', 'Gowalla'
 emb_algos   = ['LGN']  # Options: 'LGN', 'PISA_LGN'
+# emb_algos = ['PISA_LGN']
+# emb_algos = ['Contrastive_LGN']
 
 # Vanilla strategies for LGN
 '''vanilla_strats = ['pretrain', 'finetune', 'fulltrain']'''
@@ -15,6 +17,11 @@ vanilla_strats = ['pretrain']
     'finetune-plasticity-stability-userneigh' # both (full PISA)
 ]'''
 pisa_strats = ['finetune-plasticity-stability-userneigh']
+
+# contrastive + piw
+contra_strats = ['finetune-contra-piw-stdev-reinit-onlyuser',
+                 'finetune-contra-onlyuser',
+]
 
 num_neg       = 4         
 n_snapshots   = 5         
@@ -28,7 +35,7 @@ gpu           = 3
 
 # --- Sweep parameters ---
 bound_weights = [0.5]     # α in paper
-ratios        = [1.0,0.2]     # L in paper
+ratios        = [1.0,0.2]     # L in paper 
 seeds         = [2021]    # [2021, 2022, 2023, 2024, 2025]
 
 os.chdir('src')

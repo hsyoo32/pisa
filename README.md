@@ -57,6 +57,35 @@ ___
      --ratio 0.2 \
      --gpu 0
    ```
+
+3. **(Added) Run Contrastive Learning Methods** (LWC-KD or LWC-KD-PIW)
+
+   Files added in the these folders:
+   - `Runner_cons.py` → `src/helpers/` (same folder as `Runner.py`)
+   - `Contrastive.py` → `src/models/` (same folder as `Model.py`)
+   - `Contrastive_LGN.py` → `src/models/general/` (same folder as `LGN.py`)
+
+   Then run with the contrastive methods:
+
+   ```bash
+   python -u main.py \
+     --model_name Contrastive_LGN \
+     --dyn_method finetune-contra-onlyuser \
+     --dataset Amazon-games \
+     --epoch 500 \
+     --tepoch 500 \
+     --num_neg 4 \
+     --train_ratio 0.6 \
+     --lr 0.001 \
+     --l2 1e-05 \
+     --batch_size 1024 \
+     --n_snapshots 5 \
+     --split_type size \
+     --random_seed 2021 \
+     --bound_weight 0.5 \
+     --gpu 0
+   ```
+
 ---
 
 
@@ -84,6 +113,14 @@ ___
 
       * `--bound_weight <float>`: α – weight of the plasticity/stability enhancement loss.
       * `--ratio <float>`: L – top/bottom-L% selection ratio for personalized weighting.
+
+  * For **Contrastive\_LGN** (Contrastive Learning Methods):
+
+    * `finetune-contra-onlyuser` (LWC-KD)
+    * `finetune-contra-piw-stdev-reinit-onlyuser` (LWC-KD-PIW)
+      Additionally requires:
+
+      * `--bound_weight <float>`: weight for the additional contrastive loss term (e.g., 0.5, 1.0, ...).
 
 * `--n_snapshots <int>`
   Number of incremental data blocks.
